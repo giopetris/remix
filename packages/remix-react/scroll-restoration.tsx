@@ -114,7 +114,7 @@ function useScrollRestoration() {
 
       // otherwise go to the top on new locations
       window.scrollTo(0, 0);
-    }, [location]);
+    }, [location.pathname]);
   }
 
   React.useEffect(() => {
